@@ -1,0 +1,55 @@
+#PEP 621 → pyproject. toml metadata standard.
+
+#PEP 517/518 → Build system specifications.
+# This is the configuration file for the package
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PES"
+version = "0.1.0.dev1"
+description = "This package helps in calculation of Pharmagenic Enrichment Score"
+readme = "Readme.md"
+requires-python = ">=3.12"
+authors =[
+  {name = "Neha Arora", email = "neha10@uon.edu.au"},
+  {name = "Professor Murray Cairns", email = "murray@polygenrx.com"},  # Supervisor
+  {name = "Dr.Alexandre Xavier",email= "alexandre.xavier@newcastle.edu.au"}  # Co-Supervisor
+  
+]
+maintainers = [
+  {name = "Neha Arora", email = "neha10@uon.edu.au"}
+]
+
+license = {text = "MIT"}
+dependencies = ["numpy", "pandas", "paramiko", "biomart", "duckdb", "pyliftover", "graphviz", "rapidfuzz", "dash_bio=0.9.0","myvariant", "pygwalker", "networkx", "matplotlib", "python-louvain", "python-dotenv", "lxml", "aquarel", "polars", "plotly", "mygene", "kneed", "torch", "seaborn", "pytest", "pyopencl", "pyreadline"]  # optional
+[tool.setuptools.packages.find]
+where = ["PES"]
+[tool.setuptools.package-data]
+"PES"= ["bin/*", "data/*"]
+keywords = ["PES", "polygenic", "pharmagenic", "PES score", "complex", "multifactorial", "complex diseases", "multifactorial diseases"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+[project.scripts]
+plink = "plink:main_cli"
+
+[project.urls]
+HomePage = "https://example.com"
+
+DOWNLOAD = "https://example.com/abc.tar.gz"
+
+
+
+
+
+
+
+
+
+
+
