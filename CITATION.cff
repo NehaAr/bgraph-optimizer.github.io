@@ -1,0 +1,19 @@
+cff-version: 1.0.0
+title: Biological Graph Optimiser
+message: "If you use this software in your research, please cite it."
+type: software/Python Package
+version: 1.0.0
+
+authors:
+  -  given-names: Neha
+     affiliation: University of Newcastle
+     email: neha10@uon.edu.au
+
+keywords:
+   - biological networks
+   - protein-protein interaction
+   - graph optimisation
+   - bioinformatics
+
+license: GNU
+repository-code: https://github.com/NehaAr/Replay-Buffer-data
