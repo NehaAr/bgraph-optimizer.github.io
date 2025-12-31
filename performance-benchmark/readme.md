@@ -17,6 +17,18 @@ To run the performance benchmark, you will need to install the following Python 
 - **NetworkX**: For graph creation and CPU-based community detection algorithms.
 - **CuGraph**: For GPU-accelerated graph algorithms.
 - **Matplotlib**: For plotting the performance comparison.
+- **Python 3.10**: Cugraph only works on previous versions of Python and is currently unavailable on Python 3.12
+
+  To run any script implementing cugraph, use the following:
+  ``` bash
+  !python3.10 xyz.py
+  ```
+
+  | Device | Algorithm | Execution-Time |
+  |--------|-----------|-----------------|
+  |**Tesla100 GPU**|Louvain Community Detection(10000 nodes)|7.748s|
+  
+  
 
 You can install the required dependencies using:
 
