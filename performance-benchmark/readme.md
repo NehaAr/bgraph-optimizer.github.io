@@ -13,7 +13,7 @@ The experiment demonstrates how **CuGraph** (GPU) can provide a significant perf
 ## Requirements
 
 To run the performance benchmark, you will need to install the following Python packages:
-- **PES.env**:  Environment file to switch between cugraph and networkx backend
+- **bgraph.env**:  Environment file to switch between cugraph and networkx backend
 - **NetworkX**: For graph creation and CPU-based community detection algorithms.
 - **CuGraph**: For GPU-accelerated graph algorithms.
 - **Matplotlib**: For plotting the performance comparison.
