@@ -1,7 +1,7 @@
 # **Biological Graph Optimiser** 🧬🔬
 ![Biological Graph Optimiser](https://img.shields.io/badge/Status-Active-brightgreen) 
 ![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-blue)
+
 
 ![Logo](assets/bgraph.jpg)
 
