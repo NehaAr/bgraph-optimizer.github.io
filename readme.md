@@ -3,6 +3,8 @@
 ![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
+![Logo](assets/bgraph.jpg)
+
 Welcome to the **Biological Graph Optimiser** project! This tool is designed to optimize biological graphs by improving the quality of interactions, pathways, and networks in biological datasets. Whether you are working with **protein-protein interaction (PPI)** graphs, **gene networks**, or **metabolic pathways**, this tool aims to streamline graph optimization for better analysis, interpretation, and prediction.
 
 ---
