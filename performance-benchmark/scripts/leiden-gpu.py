@@ -1,3 +1,9 @@
+# -----------------------------------------------------------------------------
+# Copyright (c) 2026 Neha
+#
+# Licensed under the GPL License. See LICENSE file for details.
+# -----------------------------------------------------------------------------
+
 import nx_cugraph as nxcg
 import subprocess
 import networkx as nx
@@ -73,4 +79,5 @@ def leiden()-> None :
 start_time=time.time()
 leiden() 
 end_time=time.time()
+
 print(end_time-start_time)
