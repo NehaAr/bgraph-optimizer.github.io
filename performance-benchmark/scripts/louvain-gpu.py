@@ -1,3 +1,9 @@
+# -----------------------------------------------------------------------------
+# Copyright (c) 2026 Neha
+#
+# Licensed under the GPL License. See LICENSE file for details.
+# -----------------------------------------------------------------------------
+
 import nx_cugraph as nxcg
 import subprocess
 import networkx as nx
@@ -73,4 +79,5 @@ def louvain()-> None :
 start_time=time.time()
 louvain() 
 end_time=time.time()
+
 print(end_time-start_time)
