@@ -14,6 +14,8 @@ Welcome to the **Biological Graph Optimiser** project! This tool is designed to 
 
 ## **✨ Features:**
 - **Graph Optimisation**: Optimise biological networks by refining connections based on certain metrics.
+- **GPU Acceleration**-Leverages GPU computing (e.g. CUDA-enabled workflows) to accelerate large-scale graph operations, enabling faster optimisation for high-throughput datasets.
+- **FPGA Acceleration (Experimental)**-Supports energy-efficient hardware acceleration using FPGAs for selected graph operations, enabling high performance with low power consumption—particularly useful for large, sparse biological graphs.
 - **Visualization**: Visualize biological graphs using cutting-edge plotting techniques.
 - **Scalability**: Works with small to large datasets for high-throughput analysis.
 - **Easy-to-Use**: Simple and intuitive interface, perfect for both biologists and data scientists.
