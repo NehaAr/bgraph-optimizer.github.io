@@ -1,7 +1,7 @@
 # **Biological Graph Optimiser** 🧬🔬
 ![Biological Graph Optimiser](https://img.shields.io/badge/Status-Active-brightgreen) 
 ![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15816280.svg)](https://doi.org/10.5281/zenodo.15816280)
 
 ![Logo](assets/bgraph.jpg)
 
