@@ -1,4 +1,15 @@
-def centrality_graph(graph:nx.Graph) -> "nx.Graph":
+# -----------------------------------------------------------------------------
+# Copyright (c) 2026 Neha
+#
+# Licensed under the GPL License. See the LICENSE file for details.
+# -----------------------------------------------------------------------------
+
+import nx_cugraph as nxcg
+import subprocess
+import networkx as nx
+import time
+
+def centrality_graph(graph:nx.Graph) -> nx.Graph:
     """
     This custom wrapper visualizes 4 graphs on the basis of various centrality measures, both local and global.
 
